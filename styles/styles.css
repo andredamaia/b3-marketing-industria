@@ -1,0 +1,18 @@
+@import './components/preload.css';
+@import './components/header.css';
+@import './components/footer.css';
+
+@import './utils/base.css';
+@import './utils/text.css';
+@import './utils/button.css';
+@import './utils/animate.css';
+@import './utils/form.css';
+
+@import './pages/home.css';
+@import './pages/contato.css';
+@import './pages/orcamento.css';
+@import './pages/empresa.css';
+@import './pages/portfolio.css';
+@import './pages/empresa.css';
+
+@import './utils/responsive.css';

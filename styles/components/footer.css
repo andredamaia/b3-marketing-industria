@@ -1,0 +1,146 @@
+footer {
+    padding: 10rem 0;
+    background: #f0f2f4;
+}
+
+.menu-footer {
+    margin-bottom: 8rem;
+}
+
+footer p {
+    color: #7281af;
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+}
+
+.link-footer { 
+    text-decoration: none;
+    color: #0f427b;
+    opacity: 1;
+    display: block;
+    margin-bottom: 0;
+    transition: all .3s ease-in-out;
+    font-weight: 600;
+}
+
+.link-footer:hover {
+    color: #0f427b;
+    opacity: 1;
+}
+
+.copyright {
+    padding: 5rem 0;
+    background: #f0f2f4;
+}
+
+.copyright p {
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 3.5rem;
+    color: #7281af;
+    margin-bottom: 0;
+}
+
+footer ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+}
+
+footer ul li {
+    margin: 0 7.5rem;
+}
+
+footer ul li:first-child { margin-left: 0;}
+
+footer ul li:last-child { margin-right: 0;}
+
+.footer-fone {
+    font-size: 2.4rem;
+    line-height: 3.5rem;
+    color: #7281af;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.footer-email {
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+    color: #7281af;
+    display: block;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+
+.footer-email:hover {
+    color: #7281af;
+    opacity: .8;
+}
+
+.area-midias-sociais {
+    padding: 5rem 0;
+    background: #f7f9fb;
+}
+
+.area-midias-sociais strong {
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 3.5rem;
+    color: #7281af;
+    margin-bottom: 2.5rem;
+}
+
+.area-midias-sociais a {
+    display: inline-block;
+    margin: 0 .5rem;
+    transition: all .3s ease-in-out;
+}
+
+.area-midias-sociais a.icon-facebook {
+    background: url(../../images/facebook-cinza.png) center no-repeat;
+    padding: 2rem;
+    background-size: 3.5rem;
+}
+.area-midias-sociais a.icon-facebook:hover {
+    background: url(../../images/facebook.png) center no-repeat;
+    padding: 2rem;
+    background-size: 3.5rem;
+}
+
+.area-midias-sociais a.icon-instagram {
+    background: url(../../images/instagram-cinza.png) center no-repeat;
+    padding: 2rem;
+    background-size: 3.5rem;
+}
+.area-midias-sociais a.icon-instagram:hover {
+    background: url(../../images/instagram.png) center no-repeat;
+    padding: 2rem;
+    background-size: 3.5rem;
+}
+
+.area-midias-sociais a.icon-youtube {
+    background: url(../../images/youtube-cinza.png) center no-repeat;
+    padding: 2rem;
+    background-size: 3.5rem;
+}
+.area-midias-sociais a.icon-youtube:hover {
+    background: url(../../images/youtube.png) center no-repeat;
+    padding: 2rem;
+    background-size: 3.5rem;
+}
+
+.area-midias-sociais a.icon-linkedin {
+    background: url(../../images/linkedin-cinza.png) center no-repeat;
+    padding: 2rem;
+    background-size: 3.5rem;
+}
+.area-midias-sociais a.icon-linkedin:hover {
+    background: url(../../images/linkedin.png) center no-repeat;
+    padding: 2rem;
+    background-size: 3.5rem;
+}
