@@ -5,7 +5,16 @@ const preload = Preload()
 const preloadProgress = document.querySelector('.preload span')
 
 preload.fetch([
-    '../dev/images/bg-banner.jpg',
+    '../images/rhino.jpg',
+    '../images/swiper-rhino.png',
+    '../images/swiper-techcontrol.png',
+    '../images/swiper-winter.png',
+    '../images/swiper-scopum.png',
+    '../images/swiper-plastibel.png',
+    '../images/swiper-formparts.png',
+    '../images/swiper-ferramental.png',
+    '../images/swiper-gtf.png',
+
     
   ]).then(items => {
     const enterAnimantion = gsap.timeline({ delay: 1 })
@@ -117,19 +126,4 @@ menuButton.addEventListener('click', (e) => {
   }
 })
 
-const menuItems = [...document.querySelectorAll('.menu-item')];
-
-// menuItems.forEach(item => {
-//     let word = item.children[0].children[0].innerText.split(' ');
-//     item.children[0].innerHTML = ' ';
-//     word.forEach((letter, idx) => {
-//         item.children[0].innerHTML += `<span style="--index: ${idx};">${letter}</span>`;
-//     })
-
-//     let cloneDiv = item.children[0].cloneNode(true);
-//     cloneDiv.style.position = 'absolute';
-//     cloneDiv.style.left = '0';
-//     cloneDiv.style.top = '0';
-//     item.appendChild(cloneDiv);
-// })
 
