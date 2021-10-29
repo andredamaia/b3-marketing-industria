@@ -7,7 +7,11 @@
     align-items: center;
 }
 
-.bg-banner span {
+.bg-banner h1 span {
+    color: var(--color-dark)
+}
+
+.bg-banner .banner-text {
     font-size: 3rem;
     font-weight: 400;
     line-height: 4.5rem;
@@ -190,7 +194,7 @@
     font-weight: 500;
 }
 
-.bg-active {
+/* .bg-active {
     background: var(--color-dark);
     color: var(--color-light);
 }
@@ -205,4 +209,4 @@
 
 .black {
     color: var(--color-dark);
-}
+} */

@@ -2,9 +2,21 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h1>Agência de marketing<br/> para indústrias</h1>
+                <h1>
+                    <span>A</span><span>g</span><span>ê</span><span>n</span><span>c</span><span>i</span><span>a</span> 
+                    
+                    <span>d</span><span>e</span>
+                    
+                    <span>m</span><span>a</span><span>r</span><span>k</span><span>e</span><span>t</span><span>i</span><span>n</span><span>g</span>
+                    
+                    <br/> 
+                    
+                    <span>p</span><span>a</span><span>r</span><span>a</span>
+                    
+                    <span>i</span><span>n</span><span>d</span><span>ú</span><span>s</span><span>t</span><span>r</span><span>i</span><span>a</span><span>s</span>
+                </h1>
 
-                <span>Que querem expandir mercado, aumentar vendas e<br/> fortalecer a marca.</span>
+                <span class="banner-text">Que querem expandir mercado, aumentar vendas e<br/> fortalecer a marca.</span>
             </div>
         </div>
     </div>
