@@ -32,10 +32,30 @@ preload.fetch([
       delay: -.8,
       ease: 'power3.inOut'
     })
-
-    gsap.to('body', {
+    .fromTo('.bg-banner h1 span', 
+    {
+      autoAlpha: 0
+    },
+    {
+      delay: 2,
+      duration: .8,
+      autoAlpha: 1,
+      skewY: 6,
+      x: -20,
+      stagger: .03,
+      delay: -.8,
+      ease: 'power3.inOut'
+    })
+    .fromTo('.banner-text', {
+      autoAlpha: 0,
+      y: 60
+    }, {
+      autoAlpha: 1,
+      y: 0,
+      delay: -.3
+    })
+    .to('body', {
       css: { overflow: 'auto' },
-      delay: 1.8
     })
 
     // Wow Initialization
@@ -126,4 +146,17 @@ menuButton.addEventListener('click', (e) => {
   }
 })
 
+const intro = window.innerHeight / 3
+const portfolio = document.querySelector("#portfolio").offsetHeight
 
+function darkMode() {
+  let scrollY = window.scrollY
+
+  if(scrollY > intro && scrollY < portfolio) {
+    document.body.classList.add('dark-mode')
+  } else {
+    document.body.classList.remove('dark-mode')
+  }
+}
+
+window.addEventListener("scroll", darkMode)

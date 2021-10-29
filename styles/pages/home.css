@@ -7,7 +7,11 @@
     align-items: center;
 }
 
-.bg-banner span {
+.bg-banner h1 span {
+    color: var(--color-dark)
+}
+
+.bg-banner .banner-text {
     font-size: 3rem;
     font-weight: 400;
     line-height: 4.5rem;
@@ -16,6 +20,14 @@
 
 .area-white {
     padding: 10rem 0;
+}
+
+.empresas-left-side {
+    padding-right: 5rem;
+}
+
+.empresas-right-side {
+    padding-left: 5rem;
 }
 
 .box-empresas {
@@ -181,3 +193,20 @@
     margin-bottom: 4rem;
     font-weight: 500;
 }
+
+/* .bg-active {
+    background: var(--color-dark);
+    color: var(--color-light);
+}
+
+.letter-active {
+    color: var(--color-light);
+}
+
+.white {
+    color: var(--color-light);
+}
+
+.black {
+    color: var(--color-dark);
+} */
