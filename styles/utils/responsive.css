@@ -91,7 +91,7 @@
 
 @media (max-width: 769px) {
 
-    .logo img {
+    .logo svg {
         width: 100%;
     }
 
@@ -103,11 +103,27 @@
     h1 {
         font-size: 3.3rem;
         line-height: 4rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+    }
+
+    h1 br {
+        display: none;
+    }
+
+    .bg-banner .banner-text {
+        font-size: 2.6rem;
+        font-weight: 400;
+        line-height: 3rem;
+    }
+
+    .bg-banner .banner-text br {
+        display: none;
     }
 
     .bg-banner span {
-        font-size: 2rem;
-        line-height: 3.1rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
     }
 
     .bg-banner {

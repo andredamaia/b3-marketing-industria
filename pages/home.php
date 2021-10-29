@@ -135,36 +135,59 @@
                 <h2>O que nós fazemos?</h2>
 
                 <div class="box-servicos">
-                    <div class="box">
+                    <div class="box criacao-sites">
 
-                        <img src="<?php echo $pageurl; ?>/images/criacao-site.png" alt="techcontrol" class="arrow-gray" />
+                        <lord-icon
+                            target=".criacao-sites"
+                            src="https://cdn.lordicon.com/xvlmqqih.json"
+                            trigger="hover"
+                            colors="primary:#121331,secondary:#e4e4e4"
+                            style="width:250px;height:250px">
+                        </lord-icon>
 
                         <p class="box-name">Criação de Sites</p>
 
                         <p class="box-description">Amplie seu negócio! Ter um site responsivo e gerenciável é fundamental para a expansão da sua empresa. O site é sua vitrine. Desenvolvemos projetos exclusivos para o seu negócio! </p>
                     </div>
 
-                    <div class="box">
-
-                        <img src="<?php echo $pageurl; ?>/images/identidade-visual.png" alt="techcontrol" class="arrow-gray" />
+                    <div class="box box-identidade-visual">
+                        <lord-icon
+                            target=".box-identidade-visual"
+                            src="https://cdn.lordicon.com/zmwzxmff.json"
+                            trigger="hover"
+                            colors="primary:#121331,secondary:#e4e4e4"
+                            style="width:250px;height:250px">
+                        </lord-icon>
 
                         <p class="box-name">Identidade Visual</p>
 
                         <p class="box-description">Assim como você, sua empresa precisa de uma identidade própria, algo que a defina e a torne exclusiva. Criar uma identidade visual é fundamental para impactar e posicionar sua marca no mercado.</p>
                     </div>
 
-                    <div class="box">
+                    <div class="box design">
 
-                        <img src="<?php echo $pageurl; ?>/images/design.png" alt="techcontrol" class="arrow-gray" />
+                        <lord-icon
+                        target=".design"
+                            src="https://cdn.lordicon.com/yjmqwtbi.json"
+                            trigger="hover"
+                            colors="primary:#121331,secondary:#e4e4e4"
+                            style="width:250px;height:250px">
+                        </lord-icon>
 
                         <p class="box-name">Design</p>
 
                         <p class="box-description">Já reparou o quanto uma embalagem pode impactar na sua percepção sobre o produto? O design fala muito sobre você e sobre o seu negócio. Você pode oferecer produtos e serviços de uma maneira nova e surpreendente.</p>
                     </div>
 
-                    <div class="box">
+                    <div class="box marketing-digital">
 
-                        <img src="<?php echo $pageurl; ?>/images/marketing-digital.png" alt="techcontrol" class="arrow-gray" />
+                        <lord-icon
+                            target=".marketing-digital"
+                            src="https://cdn.lordicon.com/urhcgqxz.json"
+                            trigger="hover"
+                            colors="primary:#121331,secondary:#e4e4e4"
+                            style="width:250px;height:250px">
+                        </lord-icon>
 
                         <p class="box-name">Marketing Digital</p>
 
@@ -327,6 +350,8 @@
         </div>
     </div>
 </div>
+
+<script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
 
 <script type="module">
     import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'

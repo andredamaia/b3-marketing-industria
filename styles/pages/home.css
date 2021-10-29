@@ -77,6 +77,11 @@
     border: 1px solid #bbbbbb;
     border-bottom: none;
     border-left: none;
+    transition: all .3s ease-in-out;
+}
+
+.box-servicos .box:hover {
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
 }
 
 .box-servicos .box:last-child {
@@ -88,7 +93,7 @@
 }
 
 .box-servicos .box img {
-    margin-bottom: 6rem;
+    margin-bottom: 3rem;
 }
 
 .area-cod-gray {
@@ -131,6 +136,11 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: all .3s ease-in-out;
+}
+
+.box-depoimentos .box:hover {
+    box-shadow: 0px 0px 30px rgb(0 0 0 / 20%);
 }
 
 .box-depoimentos .box .box-description {
