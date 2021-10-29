@@ -1,7 +1,7 @@
 <?php
 
-// $pageurl = "http://".$_SERVER["SERVER_NAME"]."/dev"; // Production
-$pageurl = "../b3-marketing"; // Development
+// $pageurl = "https://".$_SERVER["SERVER_NAME"]."/dev"; // Production
+$pageurl = "../b3"; // Development
 
 $url = explode('/', $_GET['cod']);
 $page = $url["0"];
@@ -20,12 +20,12 @@ switch($page){
 		break;
 
 	case "home":
-		$title = "b3 marketing";
+		$title = "B3 marketing";
 		$description = "Agência de marketing para indústrias";
 		break;
 
 	default:
-		$title = "b3 marketing";
+		$title = "B3 marketing";
 		$description = "";
 		break;
 }

@@ -26,13 +26,13 @@
             <div class="col-12 col-md-8 col-xl-8 d-none d-xl-block">
                 <div class="menu">
                     <ul>
-                        <li><a href="/b3-marketing/#servicos">Serviços</a></li>
+                        <li><a href="/dev/#servicos">Serviços</a></li>
 
-                        <li><a href="/b3-marketing/#clientes">Clientes</a></li>
+                        <li><a href="/dev/#clientes">Clientes</a></li>
 
-                        <li><a href="/b3-marketing/#portfolio">Portfólio</a></li>
+                        <li><a href="/dev/#portfolio">Portfólio</a></li>
 
-                        <li><a href="/b3-marketing/#contato">Contato</a></li>
+                        <li><a href="/dev/#contato">Contato</a></li>
                         
                     </ul>
                 </div>
