@@ -5,7 +5,15 @@ const preload = Preload()
 const preloadProgress = document.querySelector('.preload span')
 
 preload.fetch([
-    '../../images/rhino.jpg',
+    '../b3/images/rhino.jpg',
+    '../b3/images/swiper-rhino.png',
+    '../b3/images/swiper-techcontrol.png',
+    '../b3/images/swiper-winter.png',
+    '../b3/images/swiper-scopum.png',
+    '../b3/images/swiper-plastibel.png',
+    '../b3/images/swiper-formparts.png',
+    '../b3/images/swiper-ferramental.png',
+    '../b3/images/swiper-gtf.png',
 
     
   ]).then(items => {
