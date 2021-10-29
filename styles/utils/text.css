@@ -15,7 +15,7 @@
     width: 100%;
     height: 1px;
     transition: transform .3s cubic-bezier(.645,.045,.355,1);
-    background:#285487;
+    background:var(--color-dark);
 }
 
 .line:hover:after {

@@ -18,6 +18,14 @@
     padding: 10rem 0;
 }
 
+.empresas-left-side {
+    padding-right: 5rem;
+}
+
+.empresas-right-side {
+    padding-left: 5rem;
+}
+
 .box-empresas {
     padding-bottom: 6rem;
     margin-bottom: 6rem;
@@ -180,4 +188,21 @@
     color: var(--color-light);
     margin-bottom: 4rem;
     font-weight: 500;
+}
+
+.bg-active {
+    background: var(--color-dark);
+    color: var(--color-light);
+}
+
+.letter-active {
+    color: var(--color-light);
+}
+
+.white {
+    color: var(--color-light);
+}
+
+.black {
+    color: var(--color-dark);
 }

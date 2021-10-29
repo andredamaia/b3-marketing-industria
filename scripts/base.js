@@ -5,15 +5,7 @@ const preload = Preload()
 const preloadProgress = document.querySelector('.preload span')
 
 preload.fetch([
-    '../images/rhino.jpg',
-    '../images/swiper-rhino.png',
-    '../images/swiper-techcontrol.png',
-    '../images/swiper-winter.png',
-    '../images/swiper-scopum.png',
-    '../images/swiper-plastibel.png',
-    '../images/swiper-formparts.png',
-    '../images/swiper-ferramental.png',
-    '../images/swiper-gtf.png',
+    '../../images/rhino.jpg',
 
     
   ]).then(items => {
@@ -125,5 +117,27 @@ menuButton.addEventListener('click', (e) => {
     }
   }
 })
+
+//background change color
+
+function bgChanger() {
+  if (this.scrollY > this.innerHeight / 3 ) {
+    document.body.classList.add("bg-active");
+    document.querySelectorAll('p').forEach(e => e.style.color = "white");
+    document.querySelectorAll('span').forEach(e => e.style.color = "white");
+    document.querySelectorAll('h1').forEach(e => e.style.color = "white");
+    document.querySelectorAll('h2').forEach(e => e.style.color = "white");
+  }
+  
+   else {
+    document.body.classList.remove("bg-active");
+    document.querySelectorAll('p').forEach(e => e.style.color = "black");
+    document.querySelectorAll('span').forEach(e => e.style.color = "black");
+    document.querySelectorAll('h1').forEach(e => e.style.color = "black");
+    document.querySelectorAll('h2').forEach(e => e.style.color = "black");
+  }
+}
+
+window.addEventListener("scroll", bgChanger);
 
 

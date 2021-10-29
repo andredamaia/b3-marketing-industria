@@ -10,7 +10,7 @@
     </div>
 </div>
 
-<div class="area-white" id="portfolio" name="portfolio">
+<div class="area-white portfolio" id="portfolio" name="portfolio">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-4 col-lg-4">
@@ -20,97 +20,101 @@
             </div>
 
             <div class="col-12 col-md-4 col-lg-4">
-                <div class="box-empresas">
-                   
-                    <div class="empresas-img">
-                        <img src="<?php echo $pageurl; ?>/images/techcontrol.jpg" alt="techcontrol" />
+                <div class="empresas-left-side">
+                    <div class="box-empresas">
+                        
+                        <div class="empresas-img">
+                            <img src="<?php echo $pageurl; ?>/images/techcontrol.jpg" alt="techcontrol" />
+                        </div>
+
+                        <p class="box-name">TechControl</p>
+
+                        <p class="box-description">Fomos responsáveis pela renovação da identidade visual e construção do novo logotipo e  website da TechControl.</p>
+
+                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
+                        
                     </div>
 
-                    <p class="box-name">TechControl</p>
+                    <div class="box-empresas">
+                        
+                        <div class="empresas-img">
+                            <img src="<?php echo $pageurl; ?>/images/gtf.jpg" alt="techcontrol" />
+                        </div>
 
-                    <p class="box-description">Fomos responsáveis pela renovação da identidade visual e construção do novo logotipo e  website da TechControl.</p>
+                        <p class="box-name">GTF Ferramentaria</p>
 
-                    <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                   
-                </div>
+                        <p class="box-description">Desenvolvemos o novo website da GTF Feramentaria.</p>
 
-                <div class="box-empresas">
-                    
-                    <div class="empresas-img">
-                        <img src="<?php echo $pageurl; ?>/images/gtf.jpg" alt="techcontrol" />
+                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
+                        
                     </div>
 
-                    <p class="box-name">GTF Ferramentaria</p>
+                    <div class="box-empresas">
+                        
+                        <div class="empresas-img">
+                            <img src="<?php echo $pageurl; ?>/images/winter.jpg" alt="techcontrol" />
+                        </div>
 
-                    <p class="box-description">Desenvolvemos o novo website da GTF Feramentaria.</p>
+                        <p class="box-name">Winter Ferramentaria</p>
 
-                    <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                    
-                </div>
+                        <p class="box-description">A Winter escolheu a B3 marketing para renovar sua identidade visual e desenvolver seu novo website.</p>
 
-                <div class="box-empresas">
-                    
-                    <div class="empresas-img">
-                        <img src="<?php echo $pageurl; ?>/images/winter.jpg" alt="techcontrol" />
+                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
+                        
                     </div>
-
-                    <p class="box-name">Winter Ferramentaria</p>
-
-                    <p class="box-description">A Winter escolheu a B3 marketing para renovar sua identidade visual e desenvolver seu novo website.</p>
-
-                    <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                    
                 </div>
             </div>
 
             <div class="col-12 col-md-4 col-lg-4">
-                <div class="box-empresas" style="margin-top: 20rem;">
-                    
-                    <div class="empresas-img">
-                        <img src="<?php echo $pageurl; ?>/images/rhino.jpg" alt="techcontrol" />
+                <div class="empresas-right-side">
+                    <div class="box-empresas" style="margin-top: 20rem;">
+                        
+                        <div class="empresas-img">
+                            <img src="<?php echo $pageurl; ?>/images/rhino.jpg" alt="techcontrol" />
+                        </div>
+
+                        <p class="box-name">Rhino</p>
+
+                        <p class="box-description">Criamos o logotipo e desenvolvemos a identidade visual da Rhino Cilindros Hidráulicos.</p>
+
+                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
+                        
                     </div>
 
-                    <p class="box-name">Rhino</p>
+                    <div class="box-empresas">
+                        
+                        <div class="empresas-img">
+                            <img src="<?php echo $pageurl; ?>/images/ferramental.jpg" alt="techcontrol" />
+                        </div>
 
-                    <p class="box-description">Criamos o logotipo e desenvolvemos a identidade visual da Rhino Cilindros Hidráulicos.</p>
+                        <p class="box-name">Revista Ferramental</p>
 
-                    <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                    
-                </div>
+                        <p class="box-description">Fomos responsáveis pela redesign do site e também da revista Ferramental.</p>
 
-                <div class="box-empresas">
-                    
-                    <div class="empresas-img">
-                        <img src="<?php echo $pageurl; ?>/images/ferramental.jpg" alt="techcontrol" />
+                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
+                        
                     </div>
 
-                    <p class="box-name">Revista Ferramental</p>
+                    <div class="box-empresas">
+                        
+                        <div class="empresas-img">
+                            <img src="<?php echo $pageurl; ?>/images/plastibel.jpg" alt="techcontrol" />
+                        </div>
 
-                    <p class="box-description">Fomos responsáveis pela redesign do site e também da revista Ferramental.</p>
+                        <p class="box-name">Plastibel</p>
 
-                    <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                    
-                </div>
+                        <p class="box-description">Fomos encarregados de criar um novo website para a Plastibel, além de renovar sua identidade visual.</p>
 
-                <div class="box-empresas">
-                    
-                    <div class="empresas-img">
-                        <img src="<?php echo $pageurl; ?>/images/plastibel.jpg" alt="techcontrol" />
+                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
+                        
                     </div>
-
-                    <p class="box-name">Plastibel</p>
-
-                    <p class="box-description">Fomos encarregados de criar um novo website para a Plastibel, além de renovar sua identidade visual.</p>
-
-                    <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                    
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="area-white" id="servicos" name="servicos" style="padding: 0;">
+<div class="area-white" id="servicos" name="servicos" style="padding-bottom: 0;">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 text-center">
@@ -319,6 +323,7 @@
     const swiperClientes = new Swiper('.swiper-clientes', {
         spaceBetween: 25,
         slidesPerView: 4,
+        loopAditionalSlides: 4,
         loop: true,
         autoplay: {
             delay: 2000,

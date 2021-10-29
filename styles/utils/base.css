@@ -32,6 +32,8 @@ html {
 body { 
     font-family: var(--font-roboto), sans-serif; 
     font-size: var(--text-18); 
+    background: var(--color-light);
+    transition: all .4s ease;
 }
 
 input, textarea { 

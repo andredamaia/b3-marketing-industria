@@ -1,3 +1,94 @@
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .empresas-right-side {
+        padding-left: 4rem;
+    }
+
+    .empresas-left-side {
+        padding-right: 4rem;
+    }
+
+    .box-description {
+        padding-right: 10rem;
+    }
+
+    .box-servicos .box {
+        padding: 5rem;
+    }
+
+    .box-depoimentos .box {
+        padding: 5.5rem;
+    }
+
+    .swiper-slide img {
+        max-width: 85%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .empresas-right-side {
+        padding-left: 2rem;
+    }
+
+    .empresas-left-side {
+        padding-right: 2rem;
+    }
+
+    .box-description {
+        padding-right: 7rem;
+    }
+
+    h2 {
+        font-size: 2.8rem;
+        line-height: 3.5rem;
+    }
+
+    .box-servicos .box {
+        padding: 2rem;
+    }
+
+    .box-name {
+        font-size: 2.1rem;
+    }
+
+    .box-depoimentos .box {
+        padding: 4rem;
+    }
+
+    footer span {
+        font-size: 2.1rem;
+        line-height: 3rem;
+    }
+
+    footer p {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    footer a {
+        font-size: 1.6rem;
+    }
+
+    .redes-sociais strong {
+        font-size: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .menu ul li {
+        margin: 0 2rem;
+    }
+
+    .swiper-slide img {
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 992px) {
+    .swiper-slide img {
+        max-width: 90%;
+    }
+}
+
+
 @media (max-width: 769px) {
 
     .logo img {
@@ -164,5 +255,13 @@
 
     .right-side {
         text-align: center;
+    }
+
+    .empresas-left-side {
+        padding-right: 0;
+    }
+    
+    .empresas-right-side {
+        padding-left: 0;
     }
 }
