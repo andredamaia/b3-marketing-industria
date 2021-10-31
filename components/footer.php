@@ -17,13 +17,10 @@
                         <div class="col-12 col-md-8 col-lg-8">
                             <div class="menu">
                                 <ul>
-                                    <li><a href="/b3-marketing/#servicos" class="line">Serviços</a></li>
-
-                                    <li><a href="/b3-marketing/#clientes" class="line">Clientes</a></li>
-
-                                    <li><a href="/b3-marketing/#portfolio" class="line">Portfólio</a></li>
-
-                                    <li><a href="/b3-marketing/#contato" class="line">Contato</a></li>
+                                    <li><a href="/b3/#portfolio" class="line">Portfólio</a></li>
+                                    <li><a href="/b3/#servicos" class="line">Serviços</a></li>
+                                    <li><a href="/b3/#clientes" class="line">Clientes</a></li>
+                                    <li><a href="/b3/#contato" class="line">Contato</a></li>
                                 </ul>
                             </div>
                         </div>

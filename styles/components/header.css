@@ -120,3 +120,12 @@ header {
     cursor: pointer;
     color: #000;
 }
+
+.mobile-menu-open {
+    position: fixed;
+    top: 15px;
+    right: 20px;
+    z-index: 920;
+    
+    display: none;
+}

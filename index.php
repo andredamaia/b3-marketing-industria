@@ -50,6 +50,8 @@
 </html>
 
 <script src="<?php echo $pageurl; ?>/scripts/wow.js"></script>
+<script src="<?php echo $pageurl; ?>/prod/scripts.js"></script>
+<script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="<?php echo $pageurl; ?>/scripts/base.js?v1.2" type="module"></script>
+<script src="<?php echo $pageurl; ?>/scripts/base.js" type="module"></script>

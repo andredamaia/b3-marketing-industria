@@ -16,7 +16,7 @@
                     <span>i</span><span>n</span><span>d</span><span>ú</span><span>s</span><span>t</span><span>r</span><span>i</span><span>a</span><span>s</span>
                 </h1>
 
-                <span class="banner-text">Que querem expandir mercado, aumentar vendas e<br/> fortalecer a marca.</span>
+                <span class="banner-text">Que querem expandir mercado, <br/> aumentar vendas fortalecer a marca.</span>
             </div>
         </div>
     </div>
@@ -34,7 +34,6 @@
             <div class="col-12 col-md-4 col-lg-4">
                 <div class="empresas-left-side">
                     <div class="box-empresas">
-                        
                         <div class="empresas-img">
                             <img src="<?php echo $pageurl; ?>/images/techcontrol.jpg" alt="techcontrol" />
                         </div>
@@ -42,9 +41,6 @@
                         <p class="box-name">TechControl</p>
 
                         <p class="box-description">Fomos responsáveis pela renovação da identidade visual e construção do novo logotipo e  website da TechControl.</p>
-
-                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                        
                     </div>
 
                     <div class="box-empresas">
@@ -56,9 +52,6 @@
                         <p class="box-name">GTF Ferramentaria</p>
 
                         <p class="box-description">Desenvolvemos o novo website da GTF Feramentaria.</p>
-
-                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                        
                     </div>
 
                     <div class="box-empresas">
@@ -70,9 +63,6 @@
                         <p class="box-name">Winter Ferramentaria</p>
 
                         <p class="box-description">A Winter escolheu a B3 marketing para renovar sua identidade visual e desenvolver seu novo website.</p>
-
-                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                        
                     </div>
                 </div>
             </div>
@@ -87,10 +77,7 @@
 
                         <p class="box-name">Rhino</p>
 
-                        <p class="box-description">Criamos o logotipo e desenvolvemos a identidade visual da Rhino Cilindros Hidráulicos.</p>
-
-                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                        
+                        <p class="box-description">Criamos o logotipo e desenvolvemos a identidade visual da Rhino Cilindros Hidráulicos.</p> 
                     </div>
 
                     <div class="box-empresas">
@@ -102,9 +89,6 @@
                         <p class="box-name">Revista Ferramental</p>
 
                         <p class="box-description">Fomos responsáveis pela redesign do site e também da revista Ferramental.</p>
-
-                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                        
                     </div>
 
                     <div class="box-empresas">
@@ -116,9 +100,6 @@
                         <p class="box-name">Plastibel</p>
 
                         <p class="box-description">Fomos encarregados de criar um novo website para a Plastibel, além de renovar sua identidade visual.</p>
-
-                        <!-- <img src="<?php echo $pageurl; ?>/images/arrow-gray.png" alt="techcontrol" class="arrow-gray" /> -->
-                        
                     </div>
                 </div>
             </div>
@@ -136,13 +117,12 @@
 
                 <div class="box-servicos">
                     <div class="box criacao-sites">
-
                         <lord-icon
                             target=".criacao-sites"
                             src="https://cdn.lordicon.com/xvlmqqih.json"
                             trigger="hover"
                             colors="primary:#121331,secondary:#e4e4e4"
-                            style="width:250px;height:250px">
+                            style="width:140px;height:140px">
                         </lord-icon>
 
                         <p class="box-name">Criação de Sites</p>
@@ -156,7 +136,7 @@
                             src="https://cdn.lordicon.com/zmwzxmff.json"
                             trigger="hover"
                             colors="primary:#121331,secondary:#e4e4e4"
-                            style="width:250px;height:250px">
+                            style="width:140px;height:140px">
                         </lord-icon>
 
                         <p class="box-name">Identidade Visual</p>
@@ -165,13 +145,12 @@
                     </div>
 
                     <div class="box design">
-
                         <lord-icon
                         target=".design"
                             src="https://cdn.lordicon.com/yjmqwtbi.json"
                             trigger="hover"
                             colors="primary:#121331,secondary:#e4e4e4"
-                            style="width:250px;height:250px">
+                            style="width:140px;height:140px">
                         </lord-icon>
 
                         <p class="box-name">Design</p>
@@ -180,13 +159,12 @@
                     </div>
 
                     <div class="box marketing-digital">
-
                         <lord-icon
                             target=".marketing-digital"
                             src="https://cdn.lordicon.com/urhcgqxz.json"
                             trigger="hover"
                             colors="primary:#121331,secondary:#e4e4e4"
-                            style="width:250px;height:250px">
+                            style="width:140px;height:140px">
                         </lord-icon>
 
                         <p class="box-name">Marketing Digital</p>
@@ -259,8 +237,6 @@
                             </figure>
                         </div>
                     </div>
-
-                    
                 </div>
             </div>
         </div>
@@ -351,8 +327,6 @@
     </div>
 </div>
 
-<script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
-
 <script type="module">
     import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js'
 
@@ -360,8 +334,10 @@
     const swiperClientes = new Swiper('.swiper-clientes', {
         spaceBetween: 25,
         slidesPerView: 4,
-        loopAditionalSlides: 4,
+        loopAditionalSlides: 102,
         loop: true,
+        freeMode: true,
+        speed: 1200,
         autoplay: {
             delay: 2000,
         },

@@ -1,0 +1,22 @@
+{
+  "name": "b3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel watch dev/scripts.js --out-dir prod/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andredamaia/b3-marketing-industria.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andredamaia/b3-marketing-industria/issues"
+  },
+  "homepage": "https://github.com/andredamaia/b3-marketing-industria#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

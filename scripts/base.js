@@ -5,15 +5,15 @@ const preload = Preload()
 const preloadProgress = document.querySelector('.preload span')
 
 preload.fetch([
-    '../b3-marketing/images/rhino.jpg',
-    '../b3-marketing/images/swiper-rhino.png',
-    '../b3-marketing/images/swiper-techcontrol.png',
-    '../b3-marketing/images/swiper-winter.png',
-    '../b3-marketing/images/swiper-scopum.png',
-    '../b3-marketing/images/swiper-plastibel.png',
-    '../b3-marketing/images/swiper-formparts.png',
-    '../b3-marketing/images/swiper-ferramental.png',
-    '../b3-marketing/images/swiper-gtf.png',
+    '../b3/images/rhino.jpg',
+    '../b3/images/swiper-rhino.png',
+    '../b3/images/swiper-techcontrol.png',
+    '../b3/images/swiper-winter.png',
+    '../b3/images/swiper-scopum.png',
+    '../b3/images/swiper-plastibel.png',
+    '../b3/images/swiper-formparts.png',
+    '../b3/images/swiper-ferramental.png',
+    '../b3/images/swiper-gtf.png',
 
     
   ]).then(items => {
@@ -34,15 +34,13 @@ preload.fetch([
     })
     .fromTo('.bg-banner h1 span', 
     {
-      autoAlpha: 0
+      autoAlpha: 0,
     },
     {
       delay: 2,
       duration: .8,
       autoAlpha: 1,
-      skewY: 6,
-      x: -20,
-      stagger: .03,
+      stagger: .04,
       delay: -.8,
       ease: 'power3.inOut'
     })
@@ -50,9 +48,8 @@ preload.fetch([
       autoAlpha: 0,
       y: 60
     }, {
-      autoAlpha: 1,
       y: 0,
-      delay: -.3
+      autoAlpha: 1,
     })
     .to('body', {
       css: { overflow: 'auto' },
@@ -66,17 +63,8 @@ preload.onprogress = event => {
   preloadProgress.textContent = event.progress + '%'
 }
 
-preload.onfetched = item => {
-  // console.log(item)
-}
-
-preload.onerror = item => {
-  // console.log(item)
-}
-
 // Menu Control
 const menuButton = document.querySelector('.open-menu')
-const menuClose = document.querySelector('.close-menu')
 const menuListButton = document.querySelector('.mobile-menu-list')
 const tl = gsap.timeline();
 
@@ -84,11 +72,6 @@ let checkMobile = false
 let block = false
 
 menuListButton.addEventListener('click', () => {
-  tl.reverse();
-  block = false
-})
-
-menuClose.addEventListener('click', () => {
   tl.reverse();
   block = false
 })
@@ -146,6 +129,8 @@ menuButton.addEventListener('click', (e) => {
   }
 })
 
+
+// Scroll
 const intro = window.innerHeight / 3
 const portfolio = document.querySelector("#portfolio").offsetHeight
 
@@ -160,4 +145,3 @@ function darkMode() {
 }
 
 window.addEventListener("scroll", darkMode)
-

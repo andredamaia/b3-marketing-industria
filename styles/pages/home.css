@@ -8,7 +8,8 @@
 }
 
 .bg-banner h1 span {
-    color: var(--color-dark)
+    color: var(--color-dark);
+    display: inline-block;
 }
 
 .bg-banner .banner-text {
@@ -16,6 +17,7 @@
     font-weight: 400;
     line-height: 4.5rem;
     color: var(--color-dark);
+    display: inline-block;
 }
 
 .area-white {
