@@ -14,7 +14,6 @@
         
         <link rel="apple-touch-icon" sizes="180x180" href="<?php echo $pageurl; ?>/images/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="60x60" href="<?php echo $pageurl; ?>/images/favicon.png" />
-        <link rel="manifest" href="<?php echo $pageurl; ?>/site.webmanifest" />
         
         <meta name="msapplication-TileColor" content="#eaeced" />
         <meta name="theme-color" content="#eaecedf" />

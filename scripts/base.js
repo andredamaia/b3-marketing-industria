@@ -14,8 +14,11 @@ preload.fetch([
     '../b3/images/swiper-formparts.png',
     '../b3/images/swiper-ferramental.png',
     '../b3/images/swiper-gtf.png',
-
-    
+    '../b3/images/techcontrol.jpg',
+    '../b3/images/gtf.jpg',
+    '../b3/images/winter.jpg',
+    '../b3/images/ferramental.jpg',
+    '../b3/images/plastibel.jpg',
   ]).then(items => {
     const enterAnimantion = gsap.timeline({ delay: 1 })
   
@@ -62,6 +65,15 @@ preload.fetch([
 preload.onprogress = event => {
   preloadProgress.textContent = event.progress + '%'
 }
+
+preload.onfetched = item => {
+  console.log(item)
+}
+
+preload.onerror = item => {
+  console.log(item)
+}
+
 
 // Menu Control
 const menuButton = document.querySelector('.open-menu')
