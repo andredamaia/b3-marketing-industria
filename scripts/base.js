@@ -5,20 +5,20 @@ const preload = Preload()
 const preloadProgress = document.querySelector('.preload span')
 
 preload.fetch([
-    '../b3/images/rhino.jpg',
-    '../b3/images/swiper-rhino.png',
-    '../b3/images/swiper-techcontrol.png',
-    '../b3/images/swiper-winter.png',
-    '../b3/images/swiper-scopum.png',
-    '../b3/images/swiper-plastibel.png',
-    '../b3/images/swiper-formparts.png',
-    '../b3/images/swiper-ferramental.png',
-    '../b3/images/swiper-gtf.png',
-    '../b3/images/techcontrol.jpg',
-    '../b3/images/gtf.jpg',
-    '../b3/images/winter.jpg',
-    '../b3/images/ferramental.jpg',
-    '../b3/images/plastibel.jpg',
+    '../b3-marketing/images/rhino.jpg',
+    '../b3-marketing/images/swiper-rhino.png',
+    '../b3-marketing/images/swiper-techcontrol.png',
+    '../b3-marketing/images/swiper-winter.png',
+    '../b3-marketing/images/swiper-scopum.png',
+    '../b3-marketing/images/swiper-plastibel.png',
+    '../b3-marketing/images/swiper-formparts.png',
+    '../b3-marketing/images/swiper-ferramental.png',
+    '../b3-marketing/images/swiper-gtf.png',
+    '../b3-marketing/images/techcontrol.jpg',
+    '../b3-marketing/images/gtf.jpg',
+    '../b3-marketing/images/winter.jpg',
+    '../b3-marketing/images/ferramental.jpg',
+    '../b3-marketing/images/plastibel.jpg',
   ]).then(items => {
     const enterAnimantion = gsap.timeline({ delay: 1 })
   

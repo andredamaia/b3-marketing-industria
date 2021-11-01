@@ -68,10 +68,10 @@
             <div class="col-12 col-md-8 col-xl-8 d-none d-xl-block">
                 <div class="menu">
                     <ul>
-                        <li><a href="/b3/#portfolio" class="line">Portfólio</a></li>
-                        <li><a href="/b3/#servicos" class="line">Serviços</a></li>
-                        <li><a href="/b3/#clientes" class="line">Clientes</a></li>
-                        <li><a href="/b3/#contato" class="line">Contato</a></li>
+                        <li><a href="/b3-marketing/#portfolio" class="line">Portfólio</a></li>
+                        <li><a href="/b3-marketing/#servicos" class="line">Serviços</a></li>
+                        <li><a href="/b3-marketing/#clientes" class="line">Clientes</a></li>
+                        <li><a href="/b3-marketing/#contato" class="line">Contato</a></li>
                     </ul>
                 </div>
             </div>
@@ -98,10 +98,10 @@
 
     <div class="mobile-menu-list">
         <ul>
-            <li><a href="/b3/#portfolio">Portfólio</a></li>
-            <li><a href="/b3/#servicos" >Serviços</a></li>
-            <li><a href="/b3/#clientes">Clientes</a></li>
-            <li><a href="/b3/#contato">Contato</a></li>
+            <li><a href="/b3-marketing/#portfolio">Portfólio</a></li>
+            <li><a href="/b3-marketing/#servicos" >Serviços</a></li>
+            <li><a href="/b3-marketing/#clientes">Clientes</a></li>
+            <li><a href="/b3-marketing/#contato">Contato</a></li>
         </ul>
     </div>
 </div>
