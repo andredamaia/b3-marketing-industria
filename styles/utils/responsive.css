@@ -112,7 +112,16 @@
     }
 
     h1 br {
-        display: none;
+        display: block !important;
+    }
+
+    .midium {
+        display: none !important;
+    }
+
+    h1 span {
+        font-size: 4.3rem !important;
+        line-height: 4.3rem !important;
     }
 
     .bg-banner .banner-text {
@@ -191,7 +200,7 @@
     }
 
     .area-cod-gray {
-        padding: 3rem 0;
+        padding: 6rem 0;
     }
 
     .swiper-slide figure {
@@ -224,7 +233,8 @@
     }
 
     footer {
-        padding: 3rem 0;
+        padding: 6rem 0;
+        text-align: center;
     }
 
     .menu ul {
@@ -287,10 +297,6 @@
 
     .mobile-menu-open {
         display: block;
-    }
-
-    footer {
-        text-align: center;
     }
 
     footer .menu {

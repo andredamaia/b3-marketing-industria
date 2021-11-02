@@ -5,13 +5,13 @@
                 <h1>
                     <span>A</span><span>g</span><span>ê</span><span>n</span><span>c</span><span>i</span><span>a</span> 
                     
-                    <span>d</span><span>e</span>
+                    <span>d</span><span>e</span> <br style="display: none;"/> 
                     
                     <span>m</span><span>a</span><span>r</span><span>k</span><span>e</span><span>t</span><span>i</span><span>n</span><span>g</span>
                     
-                    <br/> 
+                    <br class="midium"/> 
                     
-                    <span>p</span><span>a</span><span>r</span><span>a</span>
+                    <span>p</span><span>a</span><span>r</span><span>a</span> <br style="display: none;"/> 
                     
                     <span>i</span><span>n</span><span>d</span><span>ú</span><span>s</span><span>t</span><span>r</span><span>i</span><span>a</span><span>s</span>
                 </h1>
@@ -122,7 +122,7 @@
                             src="https://cdn.lordicon.com/xvlmqqih.json"
                             trigger="hover"
                             colors="primary:#121331,secondary:#e4e4e4"
-                            style="width:140px;height:140px">
+                            style="width:100px;height:100px">
                         </lord-icon>
 
                         <p class="box-name">Criação de Sites</p>
@@ -136,7 +136,7 @@
                             src="https://cdn.lordicon.com/zmwzxmff.json"
                             trigger="hover"
                             colors="primary:#121331,secondary:#e4e4e4"
-                            style="width:140px;height:140px">
+                            style="width:100px;height:100px">
                         </lord-icon>
 
                         <p class="box-name">Identidade Visual</p>
@@ -150,7 +150,7 @@
                             src="https://cdn.lordicon.com/yjmqwtbi.json"
                             trigger="hover"
                             colors="primary:#121331,secondary:#e4e4e4"
-                            style="width:140px;height:140px">
+                            style="width:100px;height:100px">
                         </lord-icon>
 
                         <p class="box-name">Design</p>
@@ -164,7 +164,7 @@
                             src="https://cdn.lordicon.com/urhcgqxz.json"
                             trigger="hover"
                             colors="primary:#121331,secondary:#e4e4e4"
-                            style="width:140px;height:140px">
+                            style="width:100px;height:100px">
                         </lord-icon>
 
                         <p class="box-name">Marketing Digital</p>
@@ -315,7 +315,7 @@
 
                 <p>Agende uma consultoria gratuita para conversarmos sobre estratégias<br/> para tornar sua marca mais relevante, conquistar clientes e aumentar as<br/> vendas da sua empresa.</p>
 
-                <a href="#" class="button-primary">
+                <a href="https://api.whatsapp.com/send?phone=5547991464110" class="button-primary">
                     Whatsapp
 
                     <img src="<?php echo $pageurl; ?>/images/black-arrow.png" alt="" class="black-arrow" />

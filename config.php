@@ -1,7 +1,7 @@
 <?php
 
 // $pageurl = "https://".$_SERVER["SERVER_NAME"]; // Production
-$pageurl = "../b3"; // Development
+$pageurl = "../b3-marketing"; // Development
 
 $url = explode('/', $_GET['cod']);
 $page = $url["0"];
