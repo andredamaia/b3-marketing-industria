@@ -81,7 +81,7 @@
         <div class="row">
             <div class="col-12 col-md-6 col-lg-6">
                 <div class="left-side">
-                    <p>Copyright © 2021 Techcontrol. Todos os direitos reservados</p>
+                    <p>Copyright © 2021 B3 Marketing. Todos os direitos reservados</p>
                 </div>
             </div>
 
