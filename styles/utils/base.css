@@ -33,7 +33,7 @@ body {
     font-family: var(--font-roboto), sans-serif; 
     font-size: var(--text-18); 
     background: var(--color-light);
-    transition: all .4s ease;
+    transition: all .8s ease-in-out;
 }
 
 input, textarea { 
